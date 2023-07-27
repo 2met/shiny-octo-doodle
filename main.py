@@ -47,10 +47,7 @@ def check_rate_limit(id):
         return False
 
 # Define route for root path (homepage)
-@app.route("/")
-def home():
-    # Return a simple html template for the homepage
-    return flask.render_template("home.html")
+
 
 # Define route for api url
 @app.route("/api")
